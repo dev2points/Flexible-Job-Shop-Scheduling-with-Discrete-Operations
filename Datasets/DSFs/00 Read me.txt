@@ -1,0 +1,70 @@
+Instances explanation
+A necessary explaination for instances is given below. Taking the instance DSF01 as an example.
+
+10 1 2 2
+11 1 40 10 3 41 11 1 46 13 2 43
+5 3 3 1 1 (1 20 2 16 ) 1 2 (1 21 ) 4 1 1 (1 52 2 57 ) 1 2 (1 43 2 46 ) 1 1 1 (1 66 ) 3 1 1 (2 50 ) 1 2 (1 55 2 47 ) 3 1 1 (1 29 ) 1 2 (1 33 2 36 ) 
+5 2 1 1 1 (1 24 ) 2 1 2 (1 49 2 40 ) 2 1 1 (1 17 2 16 ) 4 1 1 (1 24 2 24 ) 1 2 (1 30 2 29 ) 1 1 2 (2 62 ) 
+5 11 1 1 2 (1 41 ) 4 1 1 (1 103 2 100 ) 1 2 (1 81 2 105 ) 2 1 1 (2 33 ) 1 2 (2 42 ) 2 1 2 (1 25 2 29 ) 1 1 1 (1 10 ) 
+5 5 2 1 1 (1 71 ) 1 2 (2 100 ) 3 1 1 (2 58 ) 1 2 (1 60 2 56 ) 2 1 1 (1 70 2 55 ) 4 1 1 (1 66 2 77 ) 1 2 (1 66 2 60 ) 3 1 1 (1 84 ) 1 2 (1 93 2 86 ) 
+5 6 2 1 2 (1 80 2 78 ) 4 1 1 (1 38 2 38 ) 1 2 (1 30 2 41 ) 2 1 1 (1 76 ) 1 2 (2 61 ) 1 1 1 (2 19 ) 2 1 2 (1 50 2 35 ) 
+5 1 2 1 2 (1 49 2 49 ) 1 1 1 (1 44 ) 1 1 1 (2 67 ) 1 1 1 (1 59 ) 2 1 1 (1 71 ) 1 2 (2 59 ) 
+5 1 2 1 2 (1 72 2 71 ) 1 1 1 (2 88 ) 3 1 1 (1 77 ) 1 2 (1 94 2 83 ) 3 1 1 (1 80 2 100 ) 1 2 (1 97 ) 3 1 1 (1 115 2 95 ) 1 2 (1 62 ) 
+5 13 2 1 2 (1 44 2 36 ) 3 1 1 (1 71 2 54 ) 1 2 (2 46 ) 1 1 1 (2 40 ) 2 1 2 (1 25 2 30 ) 3 1 1 (1 105 ) 1 2 (1 81 2 110 ) 
+5 3 3 1 1 (1 20 2 22 ) 1 2 (2 22 ) 4 1 1 (1 41 2 66 ) 1 2 (1 46 2 57 ) 2 1 1 (1 24 2 15 ) 1 1 2 (1 33 ) 2 1 1 (1 102 2 96 ) 
+5 13 1 1 1 (1 83 ) 1 1 1 (1 99 ) 2 1 1 (1 44 2 37 ) 4 1 1 (1 74 2 90 ) 1 2 (1 86 2 67 ) 3 1 1 (2 105 ) 1 2 (1 94 2 94 ) 
+
+
+The first row '10 1 2 2' records the information of total number of jobs and number of resources. From the left to right, 10 represents that there are 10 jobs; 1 represents that there is 1 factory; 2 represents that each factory has up to 2 workshops; 2 represents that each workshop has up to 2 machines.
+
+The second row '11 1 40 10 3 41 11 1 46 13 2 43' records the information of  processing power, standby power and restart energy consumption of each machine. From left to right, the processing power of the four machines is 11, 10, 11 and 13 respectively; the standby power of the four machines is 1, 3, 1 and 2 respectively; the restart energy consumption of the four machines is 40, 41, 46 and 43 respectively.
+
+The third row '5 3 3 1 1 (1 20 2 16 ) 1 2 (1 21 ) 4 1 1 (1 52 2 57 ) 1 2 (1 43 2 46 ) 1 1 1 (1 66 ) 3 1 1 (2 50 ) 1 2 (1 55 2 47 ) 3 1 1 (1 29 ) 1 2 (1 33 2 36 )' records the processing information for all operations of job1. From left to right, 5 represents that job 1 has 5 operations; 3 represents that type of sequencing flexibility of job 1 is 3, i.e., the third matrix in the text document "Sequencing_flexibility"; ...
+
+3 represents 3 machines that can process operation 1 of job 1(O11); '1 1' represents that O11 can be processed in workshop 1 of factory 1; '(1 20 2 16 )' represents that O11 can be processed on machine 1 and machine 2 in workshop 1 of factory 1 with processing time of 20 and 16; '1 2' represents that O11 can be processed in workshop 2 of factory 1; '(1 21)' represents that O11 can be processed on machine 1 in workshop 2 of factory 1 with processing time of 21; ...
+
+4 represents 4 machines that can process operation 2 of job 1(O12); '1 1' represents that O12 can be processed in workshop 1 of factory 1; '(1 52 2 57 )' represents that O12 can be processed on machine 1 and machine 2 in workshop 1 of factory 1 with processing time of 52 and 57; '1 2' represents that O12 can be processed in workshop 2 of factory 1; '(1 43 2 46)' represents that O12 can be processed on machine 1 and machine 2 in workshop 2 of factory 1 with processing time of 43 and 46; ...
+
+1 represents 1 machines that can process operation 3 of job 1(O13); '1 1' represents that O13 can be processed in workshop 1 of factory 1; '(1 66 )' represents that O13 can be processed on machine 1 in workshop 1 of factory 1 with processing time of 66; ...
+
+3 represents 3 machines that can process operation 4 of job 1(O14); '1 1' represents that O14 can be processed in workshop 1 of factory 1; '(2 50 )' represents that O14 can be processed on machine 2 in workshop 1 of factory 1 with processing time of 50; '1 2' represents that O14 can be processed in workshop 2 of factory 1; '(1 55 2 47 )' represents that O14 can be processed on machine 1 and machine 2 in workshop 2 of factory 1 with processing time of 55 and 47; ...
+
+3 represents 3 machines that can process operation 5 of job 1(O15); '1 1' represents that O15 can be processed in workshop 1 of factory 1; '(1 29 )' represents that O15 can be processed on machine 1 in workshop 1 of factory 1 with processing time of 29; '1 2' represents that O15 can be processed in workshop 2 of factory 1; '(1 33 2 36 )' represents that O15 can be processed on machine 1 and machine 2 in workshop 2 of factory 1 with processing time of 33 and 36.
+
+The 4th to 12th rows record the information of jobs 2 to 10. The processing information for all operations of them can be described like as job 1.
+
+
+Explanation for type matrixes of sequencing flexibility in the text document "Sequencing_flexibility"
+A necessary explaination for matrixes is given below. Taking the matrix 1 as an example.
+
+[0 1 1 0 0
+ 0 0 0 1 0
+ 0 0 0 1 0
+ 0 0 0 0 0
+ 0 0 0 0 0]
+
+This is a 5*5 square matrix, indicating that the job has 5 operations
+
+The "1" indicates that the operation corresponding to the column must be processed after the operation corresponding to the row. For example, the '1' in the second column of the first row means that O12 must be processed after O11.
+
+The "0" indicates that the operation corresponding to the column has no direct constraint relationship on the operation corresponding to the row. 
+
+It is worth noting that the constraint relations in the matrix are transitive to reflect the indirect constraint relations. For example, if O11→O12 and O12→O14, then O11→O14, i.e., O11 needs to be processed before O14.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
