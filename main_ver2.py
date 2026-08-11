@@ -7,6 +7,7 @@ from pysat.solvers import Solver
 
 
 def read_file(file_path):
+    print(f"Reading file: {file_path}")
     SCO = []
     SFO = []
 
@@ -22,7 +23,7 @@ def read_file(file_path):
             num_machines = first_tokens[1]
 
             # Bỏ qua các dòng tiêu đề phụ nếu là file PFS
-            if "PSF" in file_path.upper():
+            if "×" in file_path.upper():
                 file.readline()
                 file.readline()
 
@@ -101,6 +102,7 @@ def read_file(file_path):
     except Exception as e:
         print(f"Lỗi khi đọc file: {e}")
         return None
+    print(f"Finished reading file: {file_path}")
 
     return num_jobs, num_machines, SCO, SFO
 
@@ -726,7 +728,7 @@ def verify_schedule(num_jobs, num_machines, SCO, SFO, machine_assignment, start_
             st1, et1, key1 = intervals[i]
             st2, et2, key2 = intervals[i + 1]
             if et1 > st2:
-                print(f"[LỖI VERIFY] Trùng máy {m}: Thao tác {key1} [{st1}->{et1}] đè lên thao tác {key2} [{st2}->{et2}]")
+                print(f"[FAULT VERIFY] Overlap per machine {m}: Operation {key1} [{st1}->{et1}] over Operation {key2} [{st2}->{et2}]")
                 return False
 
     # -------------------------------------------------------------------------
@@ -748,7 +750,7 @@ def verify_schedule(num_jobs, num_machines, SCO, SFO, machine_assignment, start_
             st1, et1, key1 = intervals[i]
             st2, et2, key2 = intervals[i + 1]
             if et1 > st2:
-                print(f"[LỖI VERIFY] Trùng Job {j_id}: Thao tác {key1} [{st1}->{et1}] đè lên thao tác {key2} [{st2}->{et2}]")
+                print(f"[FAULT VERIFY] Overlap per job {j_id}: Operation {key1} [{st1}->{et1}] over Operation {key2} [{st2}->{et2}]")
                 return False
 
     # -------------------------------------------------------------------------
@@ -771,7 +773,7 @@ def verify_schedule(num_jobs, num_machines, SCO, SFO, machine_assignment, start_
             st_v = start_times[key_v]
 
             if et_u > st_v:
-                print(f"[LỖI VERIFY] Vi phạm thứ tự SCO ở Job {j_id}: Op {op_u['op_id']} (kết thúc {et_u}) > Op {op_v['op_id']} (bắt đầu {st_v})")
+                print(f"[FAULT VERIFY] Violate sequence SCO at Job {j_id}: Op {op_u['op_id']} (end {et_u}) > Op {op_v['op_id']} (start {st_v})")
                 return False
 
     # -------------------------------------------------------------------------
@@ -786,7 +788,7 @@ def verify_schedule(num_jobs, num_machines, SCO, SFO, machine_assignment, start_
         print(f"[FAULT VERIFY] Makespan recompute ({calculated_makespan}) don't match ({expected_makespan})")
         return False
 
-    print(f"[VERIFY SUCCESS]")
+    print(f"[VERIFY] VERIFY SUCCESS]")
     return True
 
 
@@ -794,10 +796,10 @@ def main():
     parser = argparse.ArgumentParser(description="FJSDSP SAT Solver Configuration")
     
     parser.add_argument("file_path", nargs="?", default="Datasets/MPSFs/MPSF08.txt", help="Path to input dataset file")
-    parser.add_argument("--symmetry", action=argparse.BooleanOptionalAction, default=True, help="Enable/Disable Symmetry Breaking constraint (default: True)")
+    parser.add_argument("--symmetry", action=argparse.BooleanOptionalAction, default=False, help="Enable/Disable Symmetry Breaking constraint (default: False)")
     parser.add_argument("--sm-mode", choices=["1d", "2d"], default="2d", help="Same Machine selection mode: '1d'  or '2d'  (default: 2d)")
-    parser.add_argument("--order_transitive", action=argparse.BooleanOptionalAction, default=True, help="Enable/Disable Order Transitive precedence constraints for Overlap Operations per Job ALL operations (SCO + SFO) (default: True)")
-    parser.add_argument("--full-transitive", action=argparse.BooleanOptionalAction, default=True, help="Transitive mode: True for all pairs/triplets, False for first op only (default: True)")
+    parser.add_argument("--order_transitive", action=argparse.BooleanOptionalAction, default=False, help="Enable/Disable Order Transitive precedence constraints for Overlap Operations per Job ALL operations (SCO + SFO) (default: False)")
+    parser.add_argument("--full-transitive", action=argparse.BooleanOptionalAction, default=False, help="Transitive mode: True for all pairs/triplets, False for first op only (default: False)")
 
     args = parser.parse_args()
 
