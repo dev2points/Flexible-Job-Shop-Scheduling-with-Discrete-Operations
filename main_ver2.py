@@ -797,9 +797,9 @@ def main():
     
     parser.add_argument("file_path", nargs="?", default="Datasets/MPSFs/MPSF08.txt", help="Path to input dataset file")
     parser.add_argument("--symmetry", action=argparse.BooleanOptionalAction, default=False, help="Enable/Disable Symmetry Breaking constraint (default: False)")
-    parser.add_argument("--sm-mode", choices=["1d", "2d"], default="2d", help="Same Machine selection mode: '1d'  or '2d'  (default: 2d)")
+    parser.add_argument("--sm_mode", choices=["1d", "2d"], default="2d", help="Same Machine selection mode: '1d'  or '2d'  (default: 2d)")
     parser.add_argument("--order_transitive", action=argparse.BooleanOptionalAction, default=False, help="Enable/Disable Order Transitive precedence constraints for Overlap Operations per Job ALL operations (SCO + SFO) (default: False)")
-    parser.add_argument("--full-transitive", action=argparse.BooleanOptionalAction, default=False, help="Transitive mode: True for all pairs/triplets, False for first op only (default: False)")
+    parser.add_argument("--full_transitive", action=argparse.BooleanOptionalAction, default=False, help="Transitive mode: True for all pairs/triplets, False for first op only (default: False)")
 
     args = parser.parse_args()
 

@@ -1,0 +1,133 @@
+[runlim] version:		2.0.0rc12
+[runlim] host:			ap-Precision-7550
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		14000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		main_ver2.py
+[runlim] argv[3]:		Datasets/MPSFs/MPSF04.txt
+[runlim] start:			Tue Aug 11 14:03:07 2026
+[runlim] child:			12120
+=== CONFIGURATION ===
+File Path: Datasets/MPSFs/MPSF04.txt
+Symmetry Breaking: False
+Same Machine Mode (sm_mode): 2d
+Transitive Order Precedence (All Ops): False
+Full Transitive: False
+=====================
+
+Reading file: Datasets/MPSFs/MPSF04.txt
+Finished reading file: Datasets/MPSFs/MPSF04.txt
+=== GREEDY INITIAL SOLUTION ===
+Scheduled Operations: 20/20
+Makespan (UB): 181
+-------------------------------------------------
+[SAT Found] Makespan = 180
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.10 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 178
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.15 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 177
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.17 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 176
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.17 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 175
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.17 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 174
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.17 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 173
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.27 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 167
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.28 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 166
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.31 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 165
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.31 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 164
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.32 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 163
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.34 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 162
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.56 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 161
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.56 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 160
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.57 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 159
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.61 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 158
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.61 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 157
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.61 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 156
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.67 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 155
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.68 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 154
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.73 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 153
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.73 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 152
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.85 seconds
+-------------------------------------------------
+[UNSAT] Can't find a better solution. OPTIMAL!
+
+==========================================
+OPTIMAL MAKESPAN: 152
+Total Execution Time: 0.86 seconds
+==========================================
+[runlim] end:			Tue Aug 11 14:03:08 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		1
+[runlim] processes:		2
+[runlim] real:			0.90 seconds
+[runlim] time:			0.80 seconds
+[runlim] space:			39 MB
+[runlim] load:			1.34 maximum
+[runlim] samples:		9
