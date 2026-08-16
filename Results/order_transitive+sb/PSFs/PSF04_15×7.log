@@ -1,0 +1,764 @@
+[runlim] version:		2.0.0rc12
+[runlim] host:			ap-Precision-7550
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		14000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		main_ver2.py
+[runlim] argv[3]:		Datasets/PSFs/PSF04_10×7.txt
+[runlim] argv[4]:		--order_transitive
+[runlim] argv[5]:		--symmetry
+[runlim] start:			Sun Aug 16 02:20:10 2026
+[runlim] child:			8030
+=== CONFIGURATION ===
+File Path: Datasets/PSFs/PSF04_10×7.txt
+Symmetry Breaking: True
+Same Machine Mode (sm_mode): 2d
+Transitive Order Precedence (All Ops): True
+Full Transitive: False
+=====================
+
+Reading file: Datasets/PSFs/PSF04_10×7.txt
+Finished reading file: Datasets/PSFs/PSF04_10×7.txt
+=== GREEDY INITIAL SOLUTION ===
+Scheduled Operations: 50/50
+Makespan (UB): 530
+-------------------------------------------------
+[SAT Found] Makespan = 528
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.97 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 527
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.99 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 517
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.01 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 516
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.03 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 515
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.05 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 514
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.07 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 513
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.09 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 512
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.10 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 511
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.13 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 510
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.15 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 509
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.16 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 508
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.18 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 507
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.20 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 506
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.22 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 505
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.24 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 504
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.26 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 503
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.28 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 502
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.30 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 501
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.32 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 500
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.34 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 499
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.36 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 498
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.38 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 497
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.40 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 496
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.42 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 495
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.44 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 494
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.46 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 493
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.48 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 492
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.50 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 491
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.52 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 490
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.54 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 489
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.55 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 488
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.57 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 487
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.59 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 486
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.61 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 485
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.63 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 484
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.65 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 483
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.67 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 482
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.69 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 481
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.71 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 480
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.73 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 479
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.75 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 478
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.77 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 477
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.79 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 476
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.81 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 475
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.83 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 474
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.85 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 473
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.87 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 472
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.89 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 471
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.91 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 470
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.93 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 469
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.95 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 468
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.96 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 467
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.98 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 466
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.00 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 465
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.02 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 464
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.04 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 463
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.06 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 462
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.08 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 461
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.10 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 460
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.12 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 459
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.14 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 458
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.16 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 457
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.18 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 456
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.24 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 455
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.26 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 454
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.29 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 453
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.31 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 452
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.33 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 451
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.35 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 450
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.37 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 449
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.39 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 448
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.41 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 447
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.43 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 446
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.45 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 445
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.47 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 444
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.49 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 443
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.51 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 442
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.53 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 441
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.55 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 440
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.57 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 439
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.59 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 438
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.61 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 437
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.63 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 436
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.65 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 435
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.68 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 434
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.70 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 433
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.72 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 432
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.74 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 431
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.76 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 430
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.78 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 429
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.80 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 428
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.82 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 427
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.84 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 426
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.86 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 425
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.89 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 424
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.91 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 423
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.93 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 422
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.96 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 421
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.16 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 420
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.18 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 419
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.42 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 418
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.45 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 417
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.46 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 416
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.48 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 415
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.50 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 414
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.60 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 413
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 3.62 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 412
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.01 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 411
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.11 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 410
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.13 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 409
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.15 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 408
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.17 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 407
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.19 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 406
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.21 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 405
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.23 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 404
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.25 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 403
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.48 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 402
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 4.50 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 401
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 6.37 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 400
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 6.71 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 399
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 6.89 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 398
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 6.92 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 397
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 7.14 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 396
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 7.63 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 395
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 7.78 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 394
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 7.92 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 393
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 8.13 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 392
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 8.26 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 391
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 8.29 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 390
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 8.46 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 389
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 8.51 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 388
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 8.75 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 387
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 8.88 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 386
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 9.07 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 385
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 9.23 seconds
+-------------------------------------------------
+[runlim] sample:		9.94 time, 10.01 real, 192 MB, 1.04 load
+[SAT Found] Makespan = 384
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 10.96 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 383
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 11.03 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 382
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 11.27 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 381
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 11.54 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 380
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 11.57 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 379
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 11.72 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 378
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 11.74 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 377
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 12.42 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 376
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 12.44 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 375
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 12.46 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 374
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 12.49 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 373
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 12.70 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 372
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 12.95 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 371
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 13.42 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 370
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 13.63 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 369
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 13.76 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 368
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 13.97 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 367
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 13.99 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 366
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 14.13 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 365
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 14.29 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 364
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 15.58 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 363
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 15.91 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 362
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 16.07 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 361
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 16.10 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 360
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 16.12 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 359
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 17.80 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 358
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 18.11 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 357
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 18.26 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 356
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 18.28 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 355
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 18.42 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 354
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 19.09 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 353
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 19.24 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 352
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 19.53 seconds
+-------------------------------------------------
+[runlim] sample:		19.93 time, 20.01 real, 192 MB, 1.03 load
+[SAT Found] Makespan = 351
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 22.37 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 350
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 23.21 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 349
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 24.18 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 348
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 24.88 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 347
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 29.95 seconds
+-------------------------------------------------
+[runlim] sample:		29.93 time, 30.01 real, 192 MB, 1.02 load
+[SAT Found] Makespan = 346
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 31.01 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 345
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 36.83 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 344
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 38.32 seconds
+-------------------------------------------------
+[runlim] sample:		39.92 time, 40.01 real, 192 MB, 1.02 load
+[SAT Found] Makespan = 343
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 42.63 seconds
+-------------------------------------------------
+[runlim] sample:		49.91 time, 50.01 real, 192 MB, 1.02 load
+[SAT Found] Makespan = 342
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 50.56 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 341
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 55.66 seconds
+-------------------------------------------------
+[UNSAT] Can't find a better solution. OPTIMAL!
+
+==========================================
+OPTIMAL MAKESPAN: 341
+Total Execution Time: 55.69 seconds
+==========================================
+[runlim] end:			Sun Aug 16 02:21:05 2026
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		1
+[runlim] processes:		2
+[runlim] real:			55.74 seconds
+[runlim] time:			55.61 seconds
+[runlim] space:			192 MB
+[runlim] load:			1.04 maximum
+[runlim] samples:		558

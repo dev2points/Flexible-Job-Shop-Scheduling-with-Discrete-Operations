@@ -1,0 +1,84 @@
+[runlim] version:		2.0.0rc12
+[runlim] host:			ap-Precision-7550
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	3600 seconds
+[runlim] space limit:		14000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		-u
+[runlim] argv[2]:		main_ver3.py
+[runlim] argv[3]:		Datasets/MPSFs/MPSF09.txt
+[runlim] argv[4]:		--order_transitive
+[runlim] argv[5]:		--symmetry
+[runlim] argv[6]:		--full_transitive
+[runlim] start:			Sat Aug 15 19:21:45 2026
+[runlim] child:			9047
+=== CONFIGURATION ===
+File Path: Datasets/MPSFs/MPSF09.txt
+Symmetry Breaking: True
+Same Machine Mode (sm_mode): 2d
+Transitive Order Precedence (All Ops): True
+Full Transitive: True
+=====================
+
+Reading file: Datasets/MPSFs/MPSF09.txt
+Finished reading file: Datasets/MPSFs/MPSF09.txt
+=== GREEDY INITIAL SOLUTION ===
+Scheduled Operations: 45/45
+Makespan (UB): 345
+-------------------------------------------------
+[SAT Found] Makespan = 344
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 0.81 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 343
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.54 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 342
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.59 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 341
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.60 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 340
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.61 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 338
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.63 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 337
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.64 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 336
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.65 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 335
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.76 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 334
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.77 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 332
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.78 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 331
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.80 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 330
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 1.81 seconds
+-------------------------------------------------
+[SAT Found] Makespan = 329
+[VERIFY] VERIFY SUCCESS]
+Total Execution Time so far: 2.01 seconds
+-------------------------------------------------
